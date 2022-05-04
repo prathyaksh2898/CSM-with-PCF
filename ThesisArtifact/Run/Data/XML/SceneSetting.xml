@@ -1,0 +1,859 @@
+﻿<SceneSettings>
+
+	<Scene id                   = "1"
+		   name                 = "Introduction"
+		   lightConfig          = "1"
+		   camera1Position      = "-2.493f, -1.003f, 1.0279f"
+		   camera1Orientation   = "0.0f, 0.0f, 0.0f"
+		   camera2Position      = "-4.2410f, -8.0f, 5.604f"
+		   camera2Orientation   = "35.50f, 24.54f, 0.0f"
+	       useCamera1           = "false"
+		   debugSpecificLight   = "true"
+		   debugFrustum         = "true"
+		   debugCascades        = "false"
+		   debugSpecCascades    = "true"
+		   debugDepthBuffer     = "false"
+		   debugAllDepthBuffers = "false"
+		   debugCascadeNum      = "0"
+		   specCascadeNum       = "0"
+		   hideDefaultGeometry  = "false"
+		   numSamples           = "16"
+		   farPlane             = "40.0f"
+		   >
+
+	</Scene>
+
+	<Scene id               = "111"
+	   name                 = "Introduction: Debug depth buffers 1"
+	   lightConfig          = "1"
+	   camera1Position      = "-2.493f, -1.003f, 1.0279f"
+	   camera1Orientation   = "0.0f, 0.0f, 0.0f"
+	   camera2Position      = "-4.2410f, -8.0f, 5.604f"
+	   camera2Orientation   = "35.50f, 24.54f, 0.0f"
+	   useCamera1           = "false"
+	   debugSpecificLight   = "true"
+	   debugFrustum         = "true"
+	   debugCascades        = "false"
+	   debugSpecCascades    = "true"
+	   debugDepthBuffer     = "true"
+	   debugAllDepthBuffers = "true"
+	   debugCascadeNum      = "0"
+	   specCascadeNum       = "0"
+	   hideDefaultGeometry  = "false"
+	   numSamples           = "16"
+	   farPlane             = "40.0f"
+		   >
+
+	</Scene>
+
+	<Scene id               = "112"
+	   name                 = "Introduction: Debug depth buffers 2"
+	   lightConfig          = "1"
+	   camera1Position      = "-2.493f, -1.003f, 1.0279f"
+	   camera1Orientation   = "0.0f, 0.0f, 0.0f"
+	   camera2Position      = "-4.2410f, -8.0f, 5.604f"
+	   camera2Orientation   = "35.50f, 24.54f, 0.0f"
+	   useCamera1           = "false"
+	   debugSpecificLight   = "true"
+	   debugFrustum         = "true"
+	   debugCascades        = "false"
+	   debugSpecCascades    = "true"
+	   debugDepthBuffer     = "true"
+	   debugAllDepthBuffers = "false"
+	   debugCascadeNum      = "0"
+	   specCascadeNum       = "0"
+	   hideDefaultGeometry  = "false"
+	   numSamples           = "16"
+	   farPlane             = "40.0f"
+		   >
+
+	</Scene>
+
+	<Scene id                   = "4"
+	       name                 = "Lights: Directional without shadows"
+	       lightConfig          = "3"
+	       camera1Position      = "-5.40f, -1.670f, 1.50f"
+	       camera1Orientation   = "3.959f, 0.760f, 0.0f"
+	       camera2Position      = "-5.40f, -1.670f, 1.50f"
+	       camera2Orientation   = "3.959f, 0.760f, 0.0f"
+	       useCamera1           = "true"
+	       debugSpecificLight   = "false"
+	       debugFrustum         = "false"
+	       debugCascades        = "false"
+	       debugSpecCascades    = "false"
+	       debugDepthBuffer     = "false"
+	       debugAllDepthBuffers = "false"
+	       debugCascadeNum      = "0"
+	       specCascadeNum       = "0"   >
+	</Scene>
+
+	<Scene id               = "5"
+	   name                 = "Lights: Directional with shadows and rotation"
+	   lightConfig          = "4"
+	   camera1Position      = "-5.40f, -1.670f, 1.50f"
+	   camera1Orientation   = "3.959f, 0.760f, 0.0f"
+	   camera2Position      = "-5.40f, -1.670f, 1.50f"
+	   camera2Orientation   = "3.959f, 0.760f, 0.0f"
+	   useCamera1           = "true"
+	   debugSpecificLight   = "false"
+	   debugFrustum         = "false"
+	   debugCascades        = "false"
+	   debugSpecCascades    = "false"
+	   debugDepthBuffer     = "false"
+	   debugAllDepthBuffers = "false"
+	   debugCascadeNum      = "0"
+	   specCascadeNum       = "0"
+	   enablePCF            = "true"	   >
+	</Scene>
+
+	<Scene id               = "7"
+	   name                 = "Lights: Spotlights with movement and rotation"
+	   lightConfig          = "6"
+	   camera1Position      = "-5.40f, -1.670f, 1.50f"
+	   camera1Orientation   = "3.959f, 0.760f, 0.0f"
+	   camera2Position      = "-5.40f, -1.670f, 1.50f"
+	   camera2Orientation   = "3.959f, 0.760f, 0.0f"
+	   useCamera1           = "true"
+	   debugSpecificLight   = "false"
+	   debugFrustum         = "false"
+	   debugCascades        = "false"
+	   debugSpecCascades    = "false"
+	   debugDepthBuffer     = "false"
+	   debugAllDepthBuffers = "false"
+	   debugCascadeNum      = "0"
+	   specCascadeNum       = "0"
+		   >
+	</Scene>
+
+	<Scene id               = "8"
+	   name                 = "Lights: Pointlights with movement"
+	   lightConfig          = "7"
+	   camera1Position      = "-5.40f, -1.670f, 1.50f"
+	   camera1Orientation   = "3.959f, 0.760f, 0.0f"
+	   camera2Position      = "-5.40f, -1.670f, 1.50f"
+	   camera2Orientation   = "3.959f, 0.760f, 0.0f"
+	   useCamera1           = "true"
+	   debugSpecificLight   = "false"
+	   debugFrustum         = "false"
+	   debugCascades        = "false"
+	   debugSpecCascades    = "false"
+	   debugDepthBuffer     = "false"
+	   debugAllDepthBuffers = "false"
+	   debugCascadeNum      = "0"
+	   specCascadeNum       = "0"   >
+	</Scene>
+
+	<Scene id ="9"
+	   name="Direction Light with FBX"
+	   lightConfig="4"
+		camera1Position = "5.8410f, 27.29f, 18.5263f"
+		camera1Orientation = "0.f, 20.84f, 0.0f"
+		camera2Position = "0.0f, 0.0f, 10.0f"
+		camera2Orientation = "30.0f, 0.0f, 0.0f"
+		hideDefaultGeometry ="true"
+		farPlane            = "250.0f"
+		numSamples       = "16">
+
+		<FBXModel path        = "Data/Models/Terrain.fbx"
+				  position    = "0.0f, 0.0f, -10.0f"
+				  orientation = "0.0f, 0.0f, 0.0f"
+			      texturePath = "Data/Textures/stone_diffuse.png" />
+
+		<FBXModel path        = "Data/Models/Bush.fbx"
+				  position    = "20.0f, -60.0f, -0.50f"
+				  orientation = "180.0f, 0.0f, 0.0f"/>
+
+		<FBXModel path        = "Data/Models/Bush.fbx"
+				  position    = "-105.0f, -60.0f, -7.5f"
+				  orientation = "0.0f, 0.0f, 0.0f"/>
+
+		<FBXModel path        = "Data/Models/Bush.fbx"
+				  position    = "140.0f, -30.0f, -7.2f"
+				  orientation = "60.0f, 0.0f, 0.0f"/>
+
+		<FBXModel path        = "Data/Models/Bush.fbx"
+				  position    = "-55.0f, 45.0f, -2.2f"
+				  orientation = "0.0f, 0.0f, 0.0f"/>
+
+		<FBXModel path        = "Data/Models/Bush.fbx"
+				  position    = "134.23f, 14.270f, -2.79f"
+				  orientation = "0.0f, 0.0f, 0.0f"/>
+
+		<FBXModel path        = "Data/Models/Tree.fbx"
+				  position    = "111.0f, 50.0f, -2.0f"
+				  orientation = "0.0f, 0.0f, 0.0f" 		
+				  texturePath = "Data/Textures/Shell_Bark_Color.png" />
+
+		<FBXModel path        = "Data/Models/Tree.fbx"
+				  position    = "93.0f, -15.0f, -5.5f"
+				  orientation = "0.0f, 0.0f, 0.0f"
+				  texturePath = "Data/Textures/Shell_Bark_Color.png" />
+
+		<FBXModel path        = "Data/Models/Tree.fbx"
+			  position    = "46.0f, 52.0f, -3.5f"
+			  orientation = "0.0f, 0.0f, 0.0f"
+			  texturePath = "Data/Textures/Shell_Bark_Color.png" />
+
+		<FBXModel path        = "Data/Models/Tree.fbx"
+			  position    = "40.0f, 45.0f, -4.5f"
+			  orientation = "240.0f, 0.0f, 0.0f"
+			  texturePath = "Data/Textures/Shell_Bark_Color.png" />
+
+		<FBXModel path        = "Data/Models/Tree.fbx"
+			  position    = "38.0f, 53.0f, -4.5f"
+			  orientation = "160.0f, 0.0f, 0.0f"
+			  texturePath = "Data/Textures/Shell_Bark_Color.png" />
+
+		<FBXModel path        = "Data/Models/Tree.fbx"
+		  position    = "-135.0f, 25.0f, -7.5f"
+		  orientation = "0.0f, 0.0f, 0.0f"
+		  texturePath = "Data/Textures/Shell_Bark_Color.png" />
+
+		<FBXModel path        = "Data/Models/Tree.fbx"
+			  position    = "-125.0f, 21.25f, -7.5f"
+			  orientation = "0.0f, 0.0f, 0.0f"
+			  texturePath = "Data/Textures/Shell_Bark_Color.png" />
+
+		<FBXModel path        = "Data/Models/Tree.fbx"
+			  position    = "-132.0f, 29.25f, -7.5f"
+			  orientation = "0.0f, 0.0f, 0.0f"
+			  texturePath = "Data/Textures/Shell_Bark_Color.png" />
+
+		<FBXModel path        = "Data/Models/Tree.fbx"
+			  position    = "-125.0f, 28.0f, -6.5f"
+			  orientation = "240.0f, 0.0f, 0.0f"
+			  texturePath = "Data/Textures/Shell_Bark_Color.png" />
+
+		<FBXModel path        = "Data/Models/Tree.fbx"
+			  position    = "-118.0f, 24.0f, -5.5f"
+			  orientation = "160.0f, 0.0f, 0.0f"
+			  texturePath = "Data/Textures/Shell_Bark_Color.png" />
+
+		<FBXModel path        = "Data/Models/Tree.fbx"
+			  position    = "-132.0f, -29.25f, -10.5f"
+			  orientation = "0.0f, 0.0f, 0.0f"
+			  texturePath = "Data/Textures/Shell_Bark_Color.png" />
+
+		<FBXModel path        = "Data/Models/Tree.fbx"
+			  position    = "-125.0f, -28.0f, -9.5f"
+			  orientation = "240.0f, 0.0f, 0.0f"
+			  texturePath = "Data/Textures/Shell_Bark_Color.png" />
+
+		<FBXModel path        = "Data/Models/Tree.fbx"
+			  position    = "-118.0f, -24.0f, -9.5f"
+			  orientation = "160.0f, 0.0f, 0.0f"
+			  texturePath = "Data/Textures/Shell_Bark_Color.png" />
+
+
+		<FBXModel path        = "Data/Models/Bush.fbx"
+				  position    = "38.0f, -11.0f, 2.75f"
+				  orientation = "0.0f, 0.0f, 0.0f"/>
+
+	</Scene>
+
+	<Scene id ="10001"
+	   name="Direction Light with FBX - PCF 2"
+	   lightConfig="20"
+		camera1Position = "139.9410f, -20.34f, -1.585f"
+		camera1Orientation = "-22.26f, 44.76f, 0.0f"
+		camera2Position = "0.0f, 0.0f, 10.0f"
+		camera2Orientation = "30.0f, 0.0f, 0.0f"
+		hideDefaultGeometry ="true"
+		farPlane            = "250.0f"
+		numSamples       = "2">
+
+		<FBXModel path        = "Data/Models/Terrain.fbx"
+				  position    = "0.0f, 0.0f, -10.0f"
+				  orientation = "0.0f, 0.0f, 0.0f"
+			      texturePath = "Data/Textures/stone_diffuse.png" />
+
+		<FBXModel path        = "Data/Models/Bush.fbx"
+				  position    = "20.0f, -60.0f, -0.50f"
+				  orientation = "180.0f, 0.0f, 0.0f"/>
+
+		<FBXModel path        = "Data/Models/Bush.fbx"
+				  position    = "-105.0f, -60.0f, -7.5f"
+				  orientation = "0.0f, 0.0f, 0.0f"/>
+
+		<FBXModel path        = "Data/Models/Bush.fbx"
+				  position    = "140.0f, -30.0f, -7.2f"
+				  orientation = "60.0f, 0.0f, 0.0f"/>
+
+		<FBXModel path        = "Data/Models/Bush.fbx"
+				  position    = "-55.0f, 45.0f, -2.2f"
+				  orientation = "0.0f, 0.0f, 0.0f"/>
+
+		<FBXModel path        = "Data/Models/Bush.fbx"
+				  position    = "134.23f, 14.270f, -2.79f"
+				  orientation = "0.0f, 0.0f, 0.0f"/>
+
+		<FBXModel path        = "Data/Models/Tree.fbx"
+				  position    = "111.0f, 50.0f, -2.0f"
+				  orientation = "0.0f, 0.0f, 0.0f"
+				  texturePath = "Data/Textures/Shell_Bark_Color.png" />
+
+		<FBXModel path        = "Data/Models/Tree.fbx"
+				  position    = "93.0f, -15.0f, -5.5f"
+				  orientation = "0.0f, 0.0f, 0.0f"
+				  texturePath = "Data/Textures/Shell_Bark_Color.png" />
+
+		<FBXModel path        = "Data/Models/Tree.fbx"
+			  position    = "46.0f, 52.0f, -3.5f"
+			  orientation = "0.0f, 0.0f, 0.0f"
+			  texturePath = "Data/Textures/Shell_Bark_Color.png" />
+
+		<FBXModel path        = "Data/Models/Tree.fbx"
+			  position    = "40.0f, 45.0f, -4.5f"
+			  orientation = "240.0f, 0.0f, 0.0f"
+			  texturePath = "Data/Textures/Shell_Bark_Color.png" />
+
+		<FBXModel path        = "Data/Models/Tree.fbx"
+			  position    = "38.0f, 53.0f, -4.5f"
+			  orientation = "160.0f, 0.0f, 0.0f"
+			  texturePath = "Data/Textures/Shell_Bark_Color.png" />
+
+		<FBXModel path        = "Data/Models/Tree.fbx"
+		  position    = "-135.0f, 25.0f, -7.5f"
+		  orientation = "0.0f, 0.0f, 0.0f"
+		  texturePath = "Data/Textures/Shell_Bark_Color.png" />
+
+		<FBXModel path        = "Data/Models/Tree.fbx"
+			  position    = "-125.0f, 21.25f, -7.5f"
+			  orientation = "0.0f, 0.0f, 0.0f"
+			  texturePath = "Data/Textures/Shell_Bark_Color.png" />
+
+		<FBXModel path        = "Data/Models/Tree.fbx"
+			  position    = "-132.0f, 29.25f, -7.5f"
+			  orientation = "0.0f, 0.0f, 0.0f"
+			  texturePath = "Data/Textures/Shell_Bark_Color.png" />
+
+		<FBXModel path        = "Data/Models/Tree.fbx"
+			  position    = "-125.0f, 28.0f, -6.5f"
+			  orientation = "240.0f, 0.0f, 0.0f"
+			  texturePath = "Data/Textures/Shell_Bark_Color.png" />
+
+		<FBXModel path        = "Data/Models/Tree.fbx"
+			  position    = "-118.0f, 24.0f, -5.5f"
+			  orientation = "160.0f, 0.0f, 0.0f"
+			  texturePath = "Data/Textures/Shell_Bark_Color.png" />
+
+		<FBXModel path        = "Data/Models/Tree.fbx"
+			  position    = "-132.0f, -29.25f, -10.5f"
+			  orientation = "0.0f, 0.0f, 0.0f"
+			  texturePath = "Data/Textures/Shell_Bark_Color.png" />
+
+		<FBXModel path        = "Data/Models/Tree.fbx"
+			  position    = "-125.0f, -28.0f, -9.5f"
+			  orientation = "240.0f, 0.0f, 0.0f"
+			  texturePath = "Data/Textures/Shell_Bark_Color.png" />
+
+		<FBXModel path        = "Data/Models/Tree.fbx"
+			  position    = "-118.0f, -24.0f, -9.5f"
+			  orientation = "160.0f, 0.0f, 0.0f"
+			  texturePath = "Data/Textures/Shell_Bark_Color.png" />
+
+
+		<FBXModel path        = "Data/Models/Bush.fbx"
+				  position    = "38.0f, -11.0f, 2.75f"
+				  orientation = "0.0f, 0.0f, 0.0f"/>
+
+	</Scene>
+
+	<Scene id ="10002"
+	   name="Direction Light with FBX - PCF 4"
+	   lightConfig="20"
+		camera1Position = "139.9410f, -20.34f, -1.585f"
+		camera1Orientation = "-22.26f, 44.76f, 0.0f"
+		camera2Position = "0.0f, 0.0f, 10.0f"
+		camera2Orientation = "30.0f, 0.0f, 0.0f"
+		hideDefaultGeometry ="true"
+		farPlane            = "250.0f"
+		numSamples       = "4">
+
+		<FBXModel path        = "Data/Models/Terrain.fbx"
+				  position    = "0.0f, 0.0f, -10.0f"
+				  orientation = "0.0f, 0.0f, 0.0f"
+			      texturePath = "Data/Textures/stone_diffuse.png" />
+
+		<FBXModel path        = "Data/Models/Bush.fbx"
+				  position    = "20.0f, -60.0f, -0.50f"
+				  orientation = "180.0f, 0.0f, 0.0f"/>
+
+		<FBXModel path        = "Data/Models/Bush.fbx"
+				  position    = "-105.0f, -60.0f, -7.5f"
+				  orientation = "0.0f, 0.0f, 0.0f"/>
+
+		<FBXModel path        = "Data/Models/Bush.fbx"
+				  position    = "140.0f, -30.0f, -7.2f"
+				  orientation = "60.0f, 0.0f, 0.0f"/>
+
+		<FBXModel path        = "Data/Models/Bush.fbx"
+				  position    = "-55.0f, 45.0f, -2.2f"
+				  orientation = "0.0f, 0.0f, 0.0f"/>
+
+		<FBXModel path        = "Data/Models/Bush.fbx"
+				  position    = "134.23f, 14.270f, -2.79f"
+				  orientation = "0.0f, 0.0f, 0.0f"/>
+
+		<FBXModel path        = "Data/Models/Tree.fbx"
+				  position    = "111.0f, 50.0f, -2.0f"
+				  orientation = "0.0f, 0.0f, 0.0f"
+				  texturePath = "Data/Textures/Shell_Bark_Color.png" />
+
+		<FBXModel path        = "Data/Models/Tree.fbx"
+				  position    = "93.0f, -15.0f, -5.5f"
+				  orientation = "0.0f, 0.0f, 0.0f"
+				  texturePath = "Data/Textures/Shell_Bark_Color.png" />
+
+		<FBXModel path        = "Data/Models/Tree.fbx"
+			  position    = "46.0f, 52.0f, -3.5f"
+			  orientation = "0.0f, 0.0f, 0.0f"
+			  texturePath = "Data/Textures/Shell_Bark_Color.png" />
+
+		<FBXModel path        = "Data/Models/Tree.fbx"
+			  position    = "40.0f, 45.0f, -4.5f"
+			  orientation = "240.0f, 0.0f, 0.0f"
+			  texturePath = "Data/Textures/Shell_Bark_Color.png" />
+
+		<FBXModel path        = "Data/Models/Tree.fbx"
+			  position    = "38.0f, 53.0f, -4.5f"
+			  orientation = "160.0f, 0.0f, 0.0f"
+			  texturePath = "Data/Textures/Shell_Bark_Color.png" />
+
+		<FBXModel path        = "Data/Models/Tree.fbx"
+		  position    = "-135.0f, 25.0f, -7.5f"
+		  orientation = "0.0f, 0.0f, 0.0f"
+		  texturePath = "Data/Textures/Shell_Bark_Color.png" />
+
+		<FBXModel path        = "Data/Models/Tree.fbx"
+			  position    = "-125.0f, 21.25f, -7.5f"
+			  orientation = "0.0f, 0.0f, 0.0f"
+			  texturePath = "Data/Textures/Shell_Bark_Color.png" />
+
+		<FBXModel path        = "Data/Models/Tree.fbx"
+			  position    = "-132.0f, 29.25f, -7.5f"
+			  orientation = "0.0f, 0.0f, 0.0f"
+			  texturePath = "Data/Textures/Shell_Bark_Color.png" />
+
+		<FBXModel path        = "Data/Models/Tree.fbx"
+			  position    = "-125.0f, 28.0f, -6.5f"
+			  orientation = "240.0f, 0.0f, 0.0f"
+			  texturePath = "Data/Textures/Shell_Bark_Color.png" />
+
+		<FBXModel path        = "Data/Models/Tree.fbx"
+			  position    = "-118.0f, 24.0f, -5.5f"
+			  orientation = "160.0f, 0.0f, 0.0f"
+			  texturePath = "Data/Textures/Shell_Bark_Color.png" />
+
+		<FBXModel path        = "Data/Models/Tree.fbx"
+			  position    = "-132.0f, -29.25f, -10.5f"
+			  orientation = "0.0f, 0.0f, 0.0f"
+			  texturePath = "Data/Textures/Shell_Bark_Color.png" />
+
+		<FBXModel path        = "Data/Models/Tree.fbx"
+			  position    = "-125.0f, -28.0f, -9.5f"
+			  orientation = "240.0f, 0.0f, 0.0f"
+			  texturePath = "Data/Textures/Shell_Bark_Color.png" />
+
+		<FBXModel path        = "Data/Models/Tree.fbx"
+			  position    = "-118.0f, -24.0f, -9.5f"
+			  orientation = "160.0f, 0.0f, 0.0f"
+			  texturePath = "Data/Textures/Shell_Bark_Color.png" />
+
+
+		<FBXModel path        = "Data/Models/Bush.fbx"
+				  position    = "38.0f, -11.0f, 2.75f"
+				  orientation = "0.0f, 0.0f, 0.0f"/>
+
+	</Scene>
+
+	<Scene id ="10003"
+	   name="Direction Light with FBX  - PCF 8"
+	   lightConfig="20"
+		camera1Position = "139.9410f, -20.34f, -1.585f"
+		camera1Orientation = "-22.26f, 44.76f, 0.0f"
+		camera2Position = "0.0f, 0.0f, 10.0f"
+		camera2Orientation = "30.0f, 0.0f, 0.0f"
+		hideDefaultGeometry ="true"
+		farPlane            = "250.0f"
+		numSamples       = "8">
+
+		<FBXModel path        = "Data/Models/Terrain.fbx"
+				  position    = "0.0f, 0.0f, -10.0f"
+				  orientation = "0.0f, 0.0f, 0.0f"
+			      texturePath = "Data/Textures/stone_diffuse.png" />
+
+		<FBXModel path        = "Data/Models/Bush.fbx"
+				  position    = "20.0f, -60.0f, -0.50f"
+				  orientation = "180.0f, 0.0f, 0.0f"/>
+
+		<FBXModel path        = "Data/Models/Bush.fbx"
+				  position    = "-105.0f, -60.0f, -7.5f"
+				  orientation = "0.0f, 0.0f, 0.0f"/>
+
+		<FBXModel path        = "Data/Models/Bush.fbx"
+				  position    = "140.0f, -30.0f, -7.2f"
+				  orientation = "60.0f, 0.0f, 0.0f"/>
+
+		<FBXModel path        = "Data/Models/Bush.fbx"
+				  position    = "-55.0f, 45.0f, -2.2f"
+				  orientation = "0.0f, 0.0f, 0.0f"/>
+
+		<FBXModel path        = "Data/Models/Bush.fbx"
+				  position    = "134.23f, 14.270f, -2.79f"
+				  orientation = "0.0f, 0.0f, 0.0f"/>
+
+		<FBXModel path        = "Data/Models/Tree.fbx"
+				  position    = "111.0f, 50.0f, -2.0f"
+				  orientation = "0.0f, 0.0f, 0.0f"
+				  texturePath = "Data/Textures/Shell_Bark_Color.png" />
+
+		<FBXModel path        = "Data/Models/Tree.fbx"
+				  position    = "93.0f, -15.0f, -5.5f"
+				  orientation = "0.0f, 0.0f, 0.0f"
+				  texturePath = "Data/Textures/Shell_Bark_Color.png" />
+
+		<FBXModel path        = "Data/Models/Tree.fbx"
+			  position    = "46.0f, 52.0f, -3.5f"
+			  orientation = "0.0f, 0.0f, 0.0f"
+			  texturePath = "Data/Textures/Shell_Bark_Color.png" />
+
+		<FBXModel path        = "Data/Models/Tree.fbx"
+			  position    = "40.0f, 45.0f, -4.5f"
+			  orientation = "240.0f, 0.0f, 0.0f"
+			  texturePath = "Data/Textures/Shell_Bark_Color.png" />
+
+		<FBXModel path        = "Data/Models/Tree.fbx"
+			  position    = "38.0f, 53.0f, -4.5f"
+			  orientation = "160.0f, 0.0f, 0.0f"
+			  texturePath = "Data/Textures/Shell_Bark_Color.png" />
+
+		<FBXModel path        = "Data/Models/Tree.fbx"
+		  position    = "-135.0f, 25.0f, -7.5f"
+		  orientation = "0.0f, 0.0f, 0.0f"
+		  texturePath = "Data/Textures/Shell_Bark_Color.png" />
+
+		<FBXModel path        = "Data/Models/Tree.fbx"
+			  position    = "-125.0f, 21.25f, -7.5f"
+			  orientation = "0.0f, 0.0f, 0.0f"
+			  texturePath = "Data/Textures/Shell_Bark_Color.png" />
+
+		<FBXModel path        = "Data/Models/Tree.fbx"
+			  position    = "-132.0f, 29.25f, -7.5f"
+			  orientation = "0.0f, 0.0f, 0.0f"
+			  texturePath = "Data/Textures/Shell_Bark_Color.png" />
+
+		<FBXModel path        = "Data/Models/Tree.fbx"
+			  position    = "-125.0f, 28.0f, -6.5f"
+			  orientation = "240.0f, 0.0f, 0.0f"
+			  texturePath = "Data/Textures/Shell_Bark_Color.png" />
+
+		<FBXModel path        = "Data/Models/Tree.fbx"
+			  position    = "-118.0f, 24.0f, -5.5f"
+			  orientation = "160.0f, 0.0f, 0.0f"
+			  texturePath = "Data/Textures/Shell_Bark_Color.png" />
+
+		<FBXModel path        = "Data/Models/Tree.fbx"
+			  position    = "-132.0f, -29.25f, -10.5f"
+			  orientation = "0.0f, 0.0f, 0.0f"
+			  texturePath = "Data/Textures/Shell_Bark_Color.png" />
+
+		<FBXModel path        = "Data/Models/Tree.fbx"
+			  position    = "-125.0f, -28.0f, -9.5f"
+			  orientation = "240.0f, 0.0f, 0.0f"
+			  texturePath = "Data/Textures/Shell_Bark_Color.png" />
+
+		<FBXModel path        = "Data/Models/Tree.fbx"
+			  position    = "-118.0f, -24.0f, -9.5f"
+			  orientation = "160.0f, 0.0f, 0.0f"
+			  texturePath = "Data/Textures/Shell_Bark_Color.png" />
+
+
+		<FBXModel path        = "Data/Models/Bush.fbx"
+				  position    = "38.0f, -11.0f, 2.75f"
+				  orientation = "0.0f, 0.0f, 0.0f"/>
+
+	</Scene>
+
+
+	<Scene id ="10005"
+	   name="Direction Light with FBX  - PCF 16"
+	   lightConfig="20"
+		camera1Position = "139.9410f, -20.34f, -1.585f"
+		camera1Orientation = "-22.26f, 44.76f, 0.0f"
+		camera2Position = "0.0f, 0.0f, 10.0f"
+		camera2Orientation = "30.0f, 0.0f, 0.0f"
+		hideDefaultGeometry ="true"
+		farPlane            = "250.0f"
+		numSamples       = "16">
+
+		<FBXModel path        = "Data/Models/Terrain.fbx"
+				  position    = "0.0f, 0.0f, -10.0f"
+				  orientation = "0.0f, 0.0f, 0.0f"
+			      texturePath = "Data/Textures/stone_diffuse.png" />
+
+		<FBXModel path        = "Data/Models/Bush.fbx"
+				  position    = "20.0f, -60.0f, -0.50f"
+				  orientation = "180.0f, 0.0f, 0.0f"/>
+
+		<FBXModel path        = "Data/Models/Bush.fbx"
+				  position    = "-105.0f, -60.0f, -7.5f"
+				  orientation = "0.0f, 0.0f, 0.0f"/>
+
+		<FBXModel path        = "Data/Models/Bush.fbx"
+				  position    = "140.0f, -30.0f, -7.2f"
+				  orientation = "60.0f, 0.0f, 0.0f"/>
+
+		<FBXModel path        = "Data/Models/Bush.fbx"
+				  position    = "-55.0f, 45.0f, -2.2f"
+				  orientation = "0.0f, 0.0f, 0.0f"/>
+
+		<FBXModel path        = "Data/Models/Bush.fbx"
+				  position    = "134.23f, 14.270f, -2.79f"
+				  orientation = "0.0f, 0.0f, 0.0f"/>
+
+		<FBXModel path        = "Data/Models/Tree.fbx"
+				  position    = "111.0f, 50.0f, -2.0f"
+				  orientation = "0.0f, 0.0f, 0.0f"
+				  texturePath = "Data/Textures/Shell_Bark_Color.png" />
+
+		<FBXModel path        = "Data/Models/Tree.fbx"
+				  position    = "93.0f, -15.0f, -5.5f"
+				  orientation = "0.0f, 0.0f, 0.0f"
+				  texturePath = "Data/Textures/Shell_Bark_Color.png" />
+
+		<FBXModel path        = "Data/Models/Tree.fbx"
+			  position    = "46.0f, 52.0f, -3.5f"
+			  orientation = "0.0f, 0.0f, 0.0f"
+			  texturePath = "Data/Textures/Shell_Bark_Color.png" />
+
+		<FBXModel path        = "Data/Models/Tree.fbx"
+			  position    = "40.0f, 45.0f, -4.5f"
+			  orientation = "240.0f, 0.0f, 0.0f"
+			  texturePath = "Data/Textures/Shell_Bark_Color.png" />
+
+		<FBXModel path        = "Data/Models/Tree.fbx"
+			  position    = "38.0f, 53.0f, -4.5f"
+			  orientation = "160.0f, 0.0f, 0.0f"
+			  texturePath = "Data/Textures/Shell_Bark_Color.png" />
+
+		<FBXModel path        = "Data/Models/Tree.fbx"
+		  position    = "-135.0f, 25.0f, -7.5f"
+		  orientation = "0.0f, 0.0f, 0.0f"
+		  texturePath = "Data/Textures/Shell_Bark_Color.png" />
+
+		<FBXModel path        = "Data/Models/Tree.fbx"
+			  position    = "-125.0f, 21.25f, -7.5f"
+			  orientation = "0.0f, 0.0f, 0.0f"
+			  texturePath = "Data/Textures/Shell_Bark_Color.png" />
+
+		<FBXModel path        = "Data/Models/Tree.fbx"
+			  position    = "-132.0f, 29.25f, -7.5f"
+			  orientation = "0.0f, 0.0f, 0.0f"
+			  texturePath = "Data/Textures/Shell_Bark_Color.png" />
+
+		<FBXModel path        = "Data/Models/Tree.fbx"
+			  position    = "-125.0f, 28.0f, -6.5f"
+			  orientation = "240.0f, 0.0f, 0.0f"
+			  texturePath = "Data/Textures/Shell_Bark_Color.png" />
+
+		<FBXModel path        = "Data/Models/Tree.fbx"
+			  position    = "-118.0f, 24.0f, -5.5f"
+			  orientation = "160.0f, 0.0f, 0.0f"
+			  texturePath = "Data/Textures/Shell_Bark_Color.png" />
+
+		<FBXModel path        = "Data/Models/Tree.fbx"
+			  position    = "-132.0f, -29.25f, -10.5f"
+			  orientation = "0.0f, 0.0f, 0.0f"
+			  texturePath = "Data/Textures/Shell_Bark_Color.png" />
+
+		<FBXModel path        = "Data/Models/Tree.fbx"
+			  position    = "-125.0f, -28.0f, -9.5f"
+			  orientation = "240.0f, 0.0f, 0.0f"
+			  texturePath = "Data/Textures/Shell_Bark_Color.png" />
+
+		<FBXModel path        = "Data/Models/Tree.fbx"
+			  position    = "-118.0f, -24.0f, -9.5f"
+			  orientation = "160.0f, 0.0f, 0.0f"
+			  texturePath = "Data/Textures/Shell_Bark_Color.png" />
+
+
+		<FBXModel path        = "Data/Models/Bush.fbx"
+				  position    = "38.0f, -11.0f, 2.75f"
+				  orientation = "0.0f, 0.0f, 0.0f"/>
+
+	</Scene>
+
+	<Scene id ="10"
+	   name="Direction Light with FBX without rotation"
+	   lightConfig="20"
+		camera1Position = "5.8410f, 27.29f, 18.5263f"
+		camera1Orientation = "0.f, 20.84f, 0.0f"
+		camera2Position = "0.0f, 0.0f, 10.0f"
+		camera2Orientation = "30.0f, 0.0f, 0.0f"
+		hideDefaultGeometry ="true"
+		farPlane            = "250.0f"
+		numSamples       = "16">
+
+		<FBXModel path        = "Data/Models/Terrain.fbx"
+				  position    = "0.0f, 0.0f, -10.0f"
+				  orientation = "0.0f, 0.0f, 0.0f"
+			      texturePath = "Data/Textures/stone_diffuse.png" />
+
+		<FBXModel path        = "Data/Models/Bush.fbx"
+				  position    = "20.0f, -60.0f, -0.50f"
+				  orientation = "180.0f, 0.0f, 0.0f"/>
+
+		<FBXModel path        = "Data/Models/Bush.fbx"
+				  position    = "-105.0f, -60.0f, -7.5f"
+				  orientation = "0.0f, 0.0f, 0.0f"/>
+
+		<FBXModel path        = "Data/Models/Bush.fbx"
+				  position    = "140.0f, -30.0f, -7.2f"
+				  orientation = "60.0f, 0.0f, 0.0f"/>
+
+		<FBXModel path        = "Data/Models/Bush.fbx"
+				  position    = "-55.0f, 45.0f, -2.2f"
+				  orientation = "0.0f, 0.0f, 0.0f"/>
+
+		<FBXModel path        = "Data/Models/Bush.fbx"
+				  position    = "134.23f, 14.270f, -2.79f"
+				  orientation = "0.0f, 0.0f, 0.0f"/>
+
+		<FBXModel path        = "Data/Models/Tree.fbx"
+				  position    = "111.0f, 50.0f, -2.0f"
+				  orientation = "0.0f, 0.0f, 0.0f"
+				  texturePath = "Data/Textures/Shell_Bark_Color.png" />
+
+		<FBXModel path        = "Data/Models/Tree.fbx"
+				  position    = "93.0f, -15.0f, -5.5f"
+				  orientation = "0.0f, 0.0f, 0.0f"
+				  texturePath = "Data/Textures/Shell_Bark_Color.png" />
+
+		<FBXModel path        = "Data/Models/Tree.fbx"
+			  position    = "46.0f, 52.0f, -3.5f"
+			  orientation = "0.0f, 0.0f, 0.0f"
+			  texturePath = "Data/Textures/Shell_Bark_Color.png" />
+
+		<FBXModel path        = "Data/Models/Tree.fbx"
+			  position    = "40.0f, 45.0f, -4.5f"
+			  orientation = "240.0f, 0.0f, 0.0f"
+			  texturePath = "Data/Textures/Shell_Bark_Color.png" />
+
+		<FBXModel path        = "Data/Models/Tree.fbx"
+			  position    = "38.0f, 53.0f, -4.5f"
+			  orientation = "160.0f, 0.0f, 0.0f"
+			  texturePath = "Data/Textures/Shell_Bark_Color.png" />
+
+		<FBXModel path        = "Data/Models/Tree.fbx"
+		  position    = "-135.0f, 25.0f, -7.5f"
+		  orientation = "0.0f, 0.0f, 0.0f"
+		  texturePath = "Data/Textures/Shell_Bark_Color.png" />
+
+		<FBXModel path        = "Data/Models/Tree.fbx"
+			  position    = "-125.0f, 21.25f, -7.5f"
+			  orientation = "0.0f, 0.0f, 0.0f"
+			  texturePath = "Data/Textures/Shell_Bark_Color.png" />
+
+		<FBXModel path        = "Data/Models/Tree.fbx"
+			  position    = "-132.0f, 29.25f, -7.5f"
+			  orientation = "0.0f, 0.0f, 0.0f"
+			  texturePath = "Data/Textures/Shell_Bark_Color.png" />
+
+		<FBXModel path        = "Data/Models/Tree.fbx"
+			  position    = "-125.0f, 28.0f, -6.5f"
+			  orientation = "240.0f, 0.0f, 0.0f"
+			  texturePath = "Data/Textures/Shell_Bark_Color.png" />
+
+		<FBXModel path        = "Data/Models/Tree.fbx"
+			  position    = "-118.0f, 24.0f, -5.5f"
+			  orientation = "160.0f, 0.0f, 0.0f"
+			  texturePath = "Data/Textures/Shell_Bark_Color.png" />
+
+		<FBXModel path        = "Data/Models/Tree.fbx"
+			  position    = "-132.0f, -29.25f, -10.5f"
+			  orientation = "0.0f, 0.0f, 0.0f"
+			  texturePath = "Data/Textures/Shell_Bark_Color.png" />
+
+		<FBXModel path        = "Data/Models/Tree.fbx"
+			  position    = "-125.0f, -28.0f, -9.5f"
+			  orientation = "240.0f, 0.0f, 0.0f"
+			  texturePath = "Data/Textures/Shell_Bark_Color.png" />
+
+		<FBXModel path        = "Data/Models/Tree.fbx"
+			  position    = "-118.0f, -24.0f, -9.5f"
+			  orientation = "160.0f, 0.0f, 0.0f"
+			  texturePath = "Data/Textures/Shell_Bark_Color.png" />
+
+
+		<FBXModel path        = "Data/Models/Bush.fbx"
+				  position    = "38.0f, -11.0f, 2.75f"
+				  orientation = "0.0f, 0.0f, 0.0f"/>
+
+	</Scene>
+	
+	
+	<Scene id                   = "2"
+	   name                 = "Algorithm - Frustum"
+	   lightConfig          = "2"
+	   camera1Position      = "2.808f, -11.003f, 3.35279f"
+	   camera1Orientation   = "79.550f, 5.70f, 0.0f"
+	   camera2Position      = "-7.9090f, -16.340f, 15.1604f"
+	   camera2Orientation   = "52.050f, 31.08f, 0.0f"
+	   useCamera1           = "false"
+	   debugSpecificLight   = "true"
+	   debugFrustum         = "true"
+	   debugCascades        = "false"
+	   debugSpecCascades    = "false"
+	   debugDepthBuffer     = "false"
+	   debugAllDepthBuffers = "false"
+	   debugCascadeNum      = "0"
+	   specCascadeNum       = "0"
+		   >
+
+	</Scene>
+
+	<Scene id                   = "3"
+	       name                 = "Algorithm - Specific Frustum"
+	       lightConfig          = "2"
+	       camera1Position      = "2.808f, -11.003f, 3.35279f"
+	       camera1Orientation   = "79.550f, 5.70f, 0.0f"
+	       camera2Position      = "-14.39090f, -38.88340f, 58.71604f"
+	       camera2Orientation   = "60.36950f, 58.08f, 0.0f"
+	       useCamera1           = "false"
+	       debugSpecificLight   = "true"
+	       debugFrustum         = "true"
+	       debugCascades        = "true"
+	       debugSpecCascades    = "true"
+	       debugDepthBuffer     = "false"
+	       debugAllDepthBuffers = "false"
+	       debugCascadeNum      = "0"
+	       specCascadeNum       = "0"
+		    farPlane             = "200.0f"
+		   >
+
+	</Scene>
+
+	<Scene id               = "333"
+	   name                 = "Algorithm - Specific Frustum"
+	   lightConfig          = "2"
+	   camera1Position      = "2.808f, -11.003f, 3.35279f"
+	   camera1Orientation   = "79.550f, 5.70f, 0.0f"
+	   camera2Position      = "-14.39090f, -38.88340f, 58.71604f"
+	   camera2Orientation   = "60.36950f, 58.08f, 0.0f"
+	   useCamera1           = "false"
+	   debugSpecificLight   = "true"
+	   debugFrustum         = "true"
+	   debugCascades        = "true"
+	   debugSpecCascades    = "true"
+	   debugDepthBuffer     = "true"
+	   debugAllDepthBuffers = "true"
+	   debugCascadeNum      = "0"
+	   specCascadeNum       = "0"
+		farPlane             = "200.0f"
+		   >
+
+	</Scene>
+
+
+</SceneSettings>

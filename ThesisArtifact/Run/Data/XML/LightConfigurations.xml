@@ -1,0 +1,308 @@
+﻿<LightConfigurations>
+
+	<LightConfiguration id                  = "1"
+						shadowBias          = "0.0004f"
+						shadowCasting       = "0"
+						numCascades         = "3"
+						cascade0            = "12"
+		                cascade1            = "35"
+						cascade2            = "100">
+
+		<Light lightType     = "Directional"
+			   color         = "255, 255, 255"
+			   intensity     = "0.5f"
+			   orientation   = "0.0f, 30.f, 0.0f"
+			   shadowCasting = "1"
+			   isRotating    = "0"
+			   rotatingAxis  = "0"
+			   />
+
+		<Light lightType           = "Spotlight"
+			   color               = "255, 255, 255"
+			   position            = "-2.0f, 1.0f, 2.0f"
+			   intensity           = "0.250f"
+			   shadowBias          = "0.0001f"
+			   orientation         ="-45.0f, 30.f, 0.0f"
+			   attenuation         = "0.0f, 0.50f, 0.0f"
+			   specularAttenuation = "0.0f, 0.0f, 1.0f"
+			   dotInnerAngle       = "0.875f"
+			   dotOuterAngle       = "0.50f"
+			   shadowCasting       = "1"
+			   isRotating          = "0"
+			   rotatingAxis        = "0"
+			   isMoving            = "false"
+			   />
+
+		<Light lightType           = "Spotlight"
+			   color               = "255, 255, 255"
+			   position            = "-2.0f, -4.0f, 2.0f"
+			   intensity           = "0.250f"
+			   shadowBias          = "0.0001f"
+			   orientation         = "45.0f, 30.f, 0.0f"
+			   attenuation         = "0.0f, 0.50f, 0.0f"
+			   specularAttenuation = "0.0f, 0.0f, 1.0f"
+			   dotInnerAngle       = "0.875f"
+			   dotOuterAngle       = "0.50f"
+			   shadowCasting       = "1"
+			   isRotating          = "0"
+			   rotatingAxis        = "0"
+			   isMoving            = "false"
+			   />
+
+		<Light lightType           = "Pointlight"
+			   color               = "255, 255, 255"
+			   position            = "1.8376f, -1.190f, 0.54502f"
+			   intensity           = "0.250f"
+			   orientation         = "0.0f, 0.f, 0.0f"
+			   attenuation         = "0.0f, 0.50f, 0.0f"
+			   specularAttenuation = "0.0f, 0.0f, 1.0f"
+			   dotInnerAngle       = "-1.0f"
+			   dotOuterAngle       = "-1.0f"
+			   shadowCasting       = "0"
+			   />
+		
+	</LightConfiguration>
+	
+	<LightConfiguration id                  = "2"
+						shadowBias          = "0.0005f"
+						shadowCasting       = "0"
+						numCascades         = "3"
+						cascade0            = "12"
+		                cascade1            = "35"
+						cascade2            = "100">
+
+		<Light lightType     ="Directional"
+			   color         ="255, 255, 255"
+			   intensity     ="0.5f"
+			   orientation   ="60.0f, 30.f, 0.0f"
+			   shadowCasting = "1"
+			   isRotating    = "0"
+			   rotatingAxis  = "0"
+			   />
+
+	</LightConfiguration>
+
+	<LightConfiguration id                  = "3"
+						shadowBias          = "0.0005f"
+						shadowCasting       = "0"
+						numCascades         = "3"
+						cascade0            = "12"
+						cascade1            = "35"
+						cascade2            = "100">
+
+		<Light lightType     ="Directional"
+			   color         ="255, 255, 255"
+			   intensity     ="0.5f"
+			   orientation   ="60.0f, 30.f, 0.0f"
+			   shadowCasting = "0"
+			   isRotating    = "0"
+			   rotatingAxis  = "0"
+			   />
+
+	</LightConfiguration>
+
+	<LightConfiguration id                  = "4"
+						shadowBias          = "0.0006f"
+						shadowCasting       = "0"
+						numCascades         = "4"
+						cascade0            = "12"
+						cascade1            = "28"
+						cascade2            = "65"
+						cascade3            = "100">
+
+		<Light lightType     ="Directional"
+			   color         ="255, 255, 255"
+			   intensity     ="0.75f"
+			   orientation   ="60.0f, 30.f, 0.0f"
+			   shadowCasting = "1"
+			   isRotating    = "1"
+			   rotatingAxis  = "1"
+			   />
+
+	</LightConfiguration>
+	
+	<LightConfiguration id                  = "5"
+						shadowBias          = "0.0025f"
+						numCascades         = "4"
+		   				cascade0            = "12"
+		                cascade1            = "30"
+		                cascade2            = "65"
+						cascade3            = "100">
+
+		<Light lightType   ="Spotlight"
+			   position    = "2.0f, 2.0f, 3.0f"
+			   color       ="255, 255, 255"
+			   intensity   ="0.20f"
+			   orientation ="225.0f, 60.0f, 0.0f"
+			   />
+		<Light lightType   ="Spotlight"
+		       position    = "-2.0f, -2.0f, 3.0f"
+		       color       ="2255, 255, 255"
+		       intensity   ="0.20f"
+		       orientation ="45.0f, 60.0f, 0.0f"
+			   />
+		<Light lightType   ="Spotlight"
+		       position    = "-2.0f, 2.0f, 3.0f"
+		       color       ="0255, 255, 255"
+		       intensity   ="0.20f"
+		       orientation ="-45.0f, 60.0f, 0.0f"
+			   />
+		<Light lightType   ="Spotlight"
+		       position    = "2.0f, -2.0f, 3.0f"
+		       color       ="255, 255, 255"
+		       intensity   ="0.20f"
+		       orientation ="135.0f, 60.0f, 0.0f"
+			   />
+
+	</LightConfiguration>
+
+	<LightConfiguration id                  ="6"
+					    position            = "0.0f, 0.0f, 0.0f"
+					    direction           = " 1.0f, 0.0f, 0.0f"
+					    attenuation         = "0.0f, 0.5f, 0.0f"
+					    specularAttenuation = "0.0f, 0.0f, 1.0f"
+					    dotInnerAngle       = "0.875f"
+					    dotOuterAngle       = "0.50f"
+					    shadowBias          = "0.0015f"
+						shadowCasting       = "1">
+
+		<Light lightType      ="Spotlight"
+			   position       = "-1.0f, -1.0f, 2.0f"
+			   color          ="255, 255, 255"
+			   intensity      ="0.50f"
+			   orientation    ="-45.0f, 60.0f, 0.0f"
+			   isMoving       = "true"
+			   moveSpeed      = "1.0f"
+		       startPosition  = "-1.0f, 1.0f, 2.0f"
+			   endPosition    = "-1.0f, -3.0f, 2.0f"
+			   />
+
+		<Light lightType      ="Spotlight"
+		       position       = "-1.0f, -1.0f, 2.0f"
+		       color          ="255, 255, 255"
+		       intensity      ="0.50f"
+		       orientation    ="45.0f, 60.0f, 0.0f"
+			   isMoving       = "true"
+			   moveSpeed      = "1.0f"
+		       startPosition  = "-1.0f, -3.0f, 2.0f"
+			   endPosition    = "-1.0f, 1.0f, 2.0f"
+			   />
+
+	</LightConfiguration>
+
+	<LightConfiguration id                  ="7"
+					    position            = "0.0f, 0.0f, 0.0f"
+					    direction           = " 1.0f, 0.0f, 0.0f"
+					    attenuation         = "0.0f, 0.5f, 0.0f"
+					    specularAttenuation = "0.0f, 0.0f, 1.0f"
+					    dotInnerAngle       = "-1.0f"
+					    dotOuterAngle       = "-1.0f"
+					    shadowBias          = "0.0005f"
+						shadowCasting       = "1">
+
+		<Light lightType     ="Pointlight"
+			   position      = "1.0f, -1.0f, 0.50f"
+			   color         ="255, 255, 255"
+			   intensity     ="0.50f"
+			   orientation   ="-45.0f, 60.0f, 0.0f"
+			   isMoving      = "true"
+			   moveSpeed     = "0.50f"
+		       startPosition = "1.0f, -1.0f, 0.50f"
+			   endPosition   = "-1.0f, -1.0f, 0.50f"
+			   />
+
+	</LightConfiguration>
+
+	<LightConfiguration id                  = "10"
+					    shadowBias          = "0.0005f"
+					    shadowCasting       = "0"
+					    numCascades         = "3"
+					    cascade0            = "12"
+					    cascade1            = "35"
+					    cascade2            = "100">
+
+		<Light lightType     ="Directional"
+			   color         ="255, 255, 255"
+			   intensity     ="0.5f"
+			   orientation   ="60.0f, 30.f, 0.0f"
+			   shadowCasting = "1"
+			   isRotating    = "0"
+			   rotatingAxis  = "0"
+			   />
+
+		<Light lightType           = "Spotlight"
+			   color               = "255, 255, 255"
+			   position            = "1.0f, 2.0f, 2.0f"
+			   intensity           = "1.00f"
+			   orientation         = "240.0f, 30.f, 0.0f"
+			   attenuation         = "0.0f, 0.50f, 0.0f"
+			   specularAttenuation = "0.0f, 0.0f, 1.0f"
+			   dotInnerAngle       = "0.875f"
+			   dotOuterAngle       = "0.50f"
+			   shadowCasting       = "1"
+			   isRotating          = "1"
+			   rotatingAxis        = "4"
+			   isMoving            = "true"
+			   moveSpeed           = "1.0f"
+		       startPosition       = "1.0f, 5.0f, 2.0f"
+			   endPosition         = "1.0f, -5.0f, 2.0f"
+			   />
+
+	</LightConfiguration>
+
+	<LightConfiguration id                  ="11"
+					    position            = "0.0f, 0.0f, 0.0f"
+					    direction           = " 1.0f, 0.0f, 0.0f"
+					    attenuation         = "0.0f, 0.5f, 0.0f"
+					    specularAttenuation = "0.0f, 0.0f, 1.0f"
+					    dotInnerAngle       = "0.875f"
+					    dotOuterAngle       = "0.50f"
+					    shadowBias          = "0.0005f"
+						shadowCasting       = "1">
+
+		<Light lightType   ="Directional"
+			   color       ="255, 255, 255"
+			   intensity   ="0.70f"
+			   orientation ="225.0f, 30.0f, 0.0f"
+			   />
+		<Light lightType   ="Directional"
+		       color       ="255, 255, 255"
+		       intensity   ="0.70f"
+		       orientation ="45.0f, 30.0f, 0.0f"
+			   />
+		<Light lightType   ="Directional"
+		       color       ="255, 255, 255"
+		       intensity   ="0.70f"
+		       orientation ="-45.0f, 30.0f, 0.0f"
+			   />
+		<Light lightType   ="Directional"
+		       color       ="255, 255, 255"
+		       intensity   ="0.70f"
+		       orientation ="135.0f, 30.0f, 0.0f"/>
+
+
+	</LightConfiguration>
+
+	<LightConfiguration id                  = "20"
+						shadowBias          = "0.0006f"
+						shadowCasting       = "0"
+						numCascades         = "4"
+						cascade0            = "12"
+						cascade1            = "28"
+						cascade2            = "65"
+						cascade3            = "100">
+
+		<Light lightType     ="Directional"
+			   color         ="255, 255, 255"
+			   intensity     ="0.75f"
+			   orientation   ="60.0f, 60.f, 0.0f"
+			   shadowCasting = "1"
+			   isRotating    = "0"
+			   rotatingAxis  = "1"
+			   />
+
+	</LightConfiguration>
+
+</LightConfigurations>
+
+
