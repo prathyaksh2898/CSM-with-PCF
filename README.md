@@ -21,8 +21,8 @@ Shift - Player Sprints
 
 ESC - Quit the artifact
 
-[ - Go to previous scene
-] - Go to Next Scene
+'[' - Go to Previous Scene
+']' - Go to Next Scene
 
 F1 - Reload shaders
 F2 - Reload XML
